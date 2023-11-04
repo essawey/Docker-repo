@@ -61,6 +61,8 @@ def dpre(df):
     df['IntSex'] = pd.factorize(df['Sex'])[0]
     df['IntEmbarked'] = pd.factorize(df['Embarked'])[0]
     df['IntTicket'] = pd.factorize(df['Ticket'])[0]
+
+    
     df.drop('AgeGroup', axis=1, inplace=True)
     df.drop('FareGroup', axis=1, inplace=True)
     df.drop('Title', axis=1, inplace=True)
@@ -70,5 +72,5 @@ def dpre(df):
     df.drop('Ticket', axis=1, inplace=True)
 
 
-    df.to_csv("titanic.csv", index=False)
+    df.to_csv("res_dpre.csv", index=False)
     return df
