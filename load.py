@@ -20,17 +20,17 @@ def main():
     if dataset is not None:
         print("Dataset loaded successfully.")
 
-        # Data visualization
-        from vis import vis
-        vis(dataset)
-
         # Data preprocessing
         from dpre import dpre
         dataset = dpre(dataset)
 
         # Model
         from model import model
-        model(dataset, True)
+        model(dataset)
+
+        # Data visualization
+        from vis import vis
+        vis(dataset)
 
         # EDA
         from eda import eda

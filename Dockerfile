@@ -35,4 +35,3 @@ RUN python3 load.py titanic.csv
 
 # Run the container bash
 CMD ["bash"]
-
