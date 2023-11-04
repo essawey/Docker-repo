@@ -19,3 +19,10 @@ def eda(df):
         for i in range(len(columns)):
             for j in range(len(columns)):
                 f.write(f'Cosine similarity between {columns[i]} and {columns[j]}: {results[i, j]}\n')
+
+
+    # Calculate and write mean and median
+    for col in columns:
+        mean_val = df[col].mean()
+        median_val = df[col].median()
+        f.write(f'{col} has Mean of: {mean_val} and a Median of {median_val}\n')
