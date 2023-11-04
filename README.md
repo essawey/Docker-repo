@@ -7,8 +7,6 @@
 | Esraa Negm      | 202000799    | E.Negm@nu.edu.eg       |
 | Amira Ahmed     | 202000674    | A.Elsharaby@nu.edu.eg  |
 
-[GitHub](https://github.com/essawey/Docker-repo/)
-
 ## To start up the Docker Image
 ```bash
 bash start-up.sh
