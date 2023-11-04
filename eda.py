@@ -31,7 +31,6 @@ def eda(df):
         f.write('\nCorrelation between different features:\n')
         f.write(correlation_matrix.to_string())
 
-        # Identify the most reviewed products and categories
         Highest_fare = df['Fare'].max()
         Biggest_family_size = df['FamilySize'].max()
 

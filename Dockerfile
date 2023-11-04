@@ -1,5 +1,5 @@
 # Use the Ubuntu base image
-FROM ubuntu:latest
+FROM ubuntu:22.04
 
 # Update The Package
 RUN apt-get update -y 
@@ -15,7 +15,6 @@ RUN pip3 install seaborn
 RUN pip3 install matplotlib
 RUN pip3 install scikit-learn
 RUN pip3 install scipy
-RUN pip3 install missingno 
 
 # Move Dataset
 RUN mkdir /home/doc-bd-a1/

@@ -7,6 +7,7 @@ def dpre(df):
 
 
     # Data Transformation
+    
     df['FamilySize'] = df['SibSp'] + df['Parch']
     df["Title"] = df["Name"].str.extract(r', (Mr|Miss|Mrs)\.')
 
