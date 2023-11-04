@@ -15,7 +15,7 @@ bash start-up.sh
 ```
 
 ## Docker Hub
-You can pull the image from Docker Hub from [here](https://hub.docker.com/r/mohamedessawey/my1stimage/) or use the following SHH command
+You can pull the image from Docker Hub from [here](https://hub.docker.com/r/mohamedessawey/my1stimage/) or use the following SSH command
 ```bash
 git@github.com:essawey/Docker-repo.git
 ```
