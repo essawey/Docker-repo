@@ -11,3 +11,12 @@
 ```bash
 bash start-up.sh
 ```
+
+## Docker Hub
+You can pull the image from Docker Hub from [here](https://hub.docker.com/r/mohamedessawey/my1stimage/) or use the following command
+```bash
+docker pull mohamedessawey/my1stimage
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
