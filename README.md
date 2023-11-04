@@ -8,6 +8,7 @@
 | Amira Ahmed     | 202000674    | A.Elsharaby@nu.edu.eg  |
 
 ## To start up the Docker Image
+use the following command
 ```bash
 bash start-up.sh
 ```
