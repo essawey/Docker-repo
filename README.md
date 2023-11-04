@@ -1,6 +1,5 @@
-[Repo link](https://github.com/essawey/Docker-repo/)
 
-
+## Contributors
 
 |      Name       |      ID      |       E-Mail           |
 |:---------------:|:------------:|:----------------------:|
@@ -20,6 +19,12 @@ You can pull the image from Docker Hub from [here](https://hub.docker.com/r/moha
 ```bash
 docker pull mohamedessawey/my1stimage
 ```
+## Github
+You can access the repo from Github from [here](https://github.com/essawey/Docker-repo/) or use the following command
+```bash
+docker pull mohamedessawey/my1stimage
+```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
