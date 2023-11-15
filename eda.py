@@ -7,7 +7,7 @@ def eda(df):
     numeric_df = df.select_dtypes(include=[np.number])
     columns = numeric_df.columns
     results = np.zeros((len(columns), len(columns)))
-
+    # Calculate the Cosine similarity
     for i in range(len(columns)):
         for j in range(len(columns)):
             col1 = numeric_df[columns[i]]
@@ -17,7 +17,7 @@ def eda(df):
 
     with open('eda-in-1.txt', 'w') as f:
 
-        # Calculate the Cosine similarity
+        # write the Cosine similarity
         for i in range(len(columns)):
             for j in range(len(columns)):
                 f.write(f'Cosine similarity between {columns[i]} and {columns[j]}: {results[i, j]}\n')
