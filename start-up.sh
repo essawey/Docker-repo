@@ -1,1 +1,1 @@
-docker build -t essawey-container . ; docker run -it --name essawey-container essawey-container
+docker build -t essawey-image . ; docker run -it --name essawey-container essawey-image
