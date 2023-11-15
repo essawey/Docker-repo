@@ -16,21 +16,25 @@ def eda(df):
             results[i, j] = similarity
 
     with open('eda-in-1.txt', 'w') as f:
+
+        # Calculate the Cosine similarity
         for i in range(len(columns)):
             for j in range(len(columns)):
                 f.write(f'Cosine similarity between {columns[i]} and {columns[j]}: {results[i, j]}\n')
+        f.write('\n')
 
-        # Calculate and write mean and median
+        # Calculate the mean and median
         for col in columns:
             mean_val = numeric_df[col].mean()
             median_val = numeric_df[col].median()
             f.write(f'{col} has Mean of: {mean_val} and a Median of {median_val}\n')
 
-        # Analyze and write correlation between columns
+        # Calculate the columns correlation
         correlation_matrix = numeric_df.corr()
         f.write('\nCorrelation between different features:\n')
         f.write(correlation_matrix.to_string())
 
+        # Calculate the highest values
         Highest_fare = df['Fare'].max()
         Biggest_family_size = df['FamilySize'].max()
 
