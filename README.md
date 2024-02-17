@@ -22,7 +22,3 @@ You can access the repo from Github from [here](https://github.com/essawey/Docke
 ```bash
 git@github.com:essawey/Docker-repo.git
 ```
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
-
