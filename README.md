@@ -1,10 +1,8 @@
-## Contributors
+## Developed by
 
 |      Name       |       E-Mail           |
 |:---------------:|:----------------------:|
 | Mohamed Essawey | M.Abdelmaged@nu.edu.eg |
-| Esraa Negm      | E.Negm@nu.edu.eg       |
-| Amira Ahmed     | A.Elsharaby@nu.edu.eg  |
 
 ## To start up the Docker Image
 use the following command
