@@ -1,9 +1,3 @@
-## Developed by
-
-|      Name       |       E-Mail           |
-|:---------------:|:----------------------:|
-| Mohamed Essawey | M.Abdelmaged@nu.edu.eg |
-
 ## To start up the Docker Image
 use the following command
 ```bash
